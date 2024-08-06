@@ -2,16 +2,16 @@ import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const navbar = () => {
+const Navbarbar = () => {
   return (
     <>
       <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="#home">Mark</Navbar.Brand>
+          <Navbar.Brand href="#home">IES</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/order">Order</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/salegstentry">Sale Entry</Nav.Link>
               <Nav.Link href="/saleentry">Estimate Enter</Nav.Link>
               {/* Product Dropdown */}
@@ -56,4 +56,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbarbar;
