@@ -25,10 +25,10 @@ const Navbarbar = () => {
               <NavDropdown title="Master" id="collasible-nav-dropdown">
                 {/* Add more dropdown items here */}
                 <NavDropdown.Item href="/product">Product</NavDropdown.Item>
-                <NavDropdown.Item href="/customer">Customer</NavDropdown.Item>
-                <NavDropdown.Item href="/Company">Company</NavDropdown.Item>
-                <NavDropdown.Item href="/Branch">Branch</NavDropdown.Item>
-                <NavDropdown.Item href="/role">Role</NavDropdown.Item>
+                <NavDropdown.Item href="/customeradd">
+                  Customer
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/Company">Distributor</NavDropdown.Item>
                 <NavDropdown.Item href="/userlist">User</NavDropdown.Item>
               </NavDropdown>
               {/* account Dropdown */}
